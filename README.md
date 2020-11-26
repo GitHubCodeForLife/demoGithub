@@ -1,16 +1,30 @@
 # Hướng dẫn viết file Readme.md githup
 - [1. Readme là gì](#1-readme-l%C3%A0-g%C3%AC)
 - [2. Các thành phần của readme](#2-c%C3%A1c-th%C3%A0nh-ph%E1%BA%A7n-c%E1%BB%A7a-readme)
- - [2.1 Ký tự # - ký tự header](#21-ký-tự----ký-tự-header)
- - [2.2 Tạo contents](#22-tạo-contents)
- - [2.3 Trích xuất thông tin](#23-trích-xuất-thông-tin)
- - [2.4 Link](#24-link)
- - [2.5 Xuống dòng, khoảng trống](#25-xuống-dòng-khoảng-trống-1-thủ-thuật-nhỏ) 
- - [2.6 Giả lập code](#26-viết-code-ở-file-readme)
- - [2.7 In nghiêng, in đậm](#27-in-nghiêng-in-đậm--hay-)
- - [2.8 Gạch đầu dòng](#28-gạch-đầu-dòng)
- - [2.9 Tạo bảng](#29-tạo-bảng)
-- [Tham khảo] 
+
+   - [2.1 Ký tự # - ký tự header](#21-ký-tự----ký-tự-header)
+ 
+   - [2.2 Tạo contents](#22-tạo-contents)
+ 
+   - [2.3 Trích xuất thông tin](#23-trích-xuất-thông-tin)
+ 
+   - [2.4 Link](#24-link)
+ 
+   - [2.5 Xuống dòng, khoảng trống](#25-xuống-dòng-khoảng-trống-1-thủ-thuật-nhỏ) 
+ 
+   - [2.6 Giả lập code](#26-viết-code-ở-file-readme)
+ 
+   - [2.7 In nghiêng, in đậm](#27-in-nghiêng-in-đậm--hay-)
+ 
+   - [2.8 Gạch đầu dòng](#28-gạch-đầu-dòng)
+ 
+   - [2.9 Tạo bảng](#29-tạo-bảng)
+ 
+- [Tham khảo](#tham-khảo) 
+ 
+   - (Dùng Raw để phân tích readme)[#dùng-raw-để-phân-tích-githup-readme-của-người-khác]
+   
+   - (Tham khảo thêm)[#tham-khảo-thêm-tại]
 ## 1. Readme là gì?
 
 Readme.md là một file hiển thị thông tin trên github, được viết dưới dạng ngôn ngữ thiết kế ( markup language), tương tự HTML, XML,... 
