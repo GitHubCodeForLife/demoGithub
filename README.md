@@ -74,7 +74,7 @@ Sử dụng [tagname] để link đến tab bên dưới.
 #### Table of contents
 * [Trích xuất thông tin](#23-trích-xuất-thông-tin)
 * [Link ảnh](#24-link)
-* [Tham khảo](#https://xnxx.com)
+* [Tham khảo](https://xnxx.com)
 
 `Code: `
 
