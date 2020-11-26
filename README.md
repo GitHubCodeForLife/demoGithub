@@ -1,11 +1,16 @@
 # Hướng dẫn viết file Readme.md githup
 - [1. Readme là gì](#1-readme-l%C3%A0-g%C3%AC)
 - [2. Các thành phần của readme](#2-c%C3%A1c-th%C3%A0nh-ph%E1%BA%A7n-c%E1%BB%A7a-readme)
-
-
-
-
-
+ - [2.1 Ký tự # - ký tự header](#21-ký-tự----ký-tự-header)
+ - [2.2 Tạo contents](#22-tạo-contents)
+ - [2.3 Trích xuất thông tin](#23-trích-xuất-thông-tin)
+ - [2.4 Link](#24-link)
+ - [2.5 Xuống dòng, khoảng trống](#25-xuống-dòng-khoảng-trống-1-thủ-thuật-nhỏ) 
+ - [2.6 Giả lập code](#26-viết-code-ở-file-readme)
+ - [2.7 In nghiêng, in đậm](#27-in-nghiêng-in-đậm--hay-)
+ - [2.8 Gạch đầu dòng](#28-gạch-đầu-dòng)
+ - [2.9 Tạo bảng](#29-tạo-bảng)
+- [Tham khảo] 
 ## 1. Readme là gì?
 
 Readme.md là một file hiển thị thông tin trên github, được viết dưới dạng ngôn ngữ thiết kế ( markup language), tương tự HTML, XML,... 
@@ -48,7 +53,7 @@ Chúng ta sẽ có 6 header tương ứng vơi mỗi dấu #, ví dụ # sẽ l�
 ```
 Lưu ý là dấu # phải ở đầu dòng và có cách ra  một khoảng trắng nhỏ với dấu # nhá.
 
-### 2.2 Tạo bảng
+### 2.2 Tạo contents
 Để tạo bảng được các bạn sử dụng * để khai báo một dòng.
 
 Sử dụng [tagname] để link đến tab bên dưới.
@@ -78,8 +83,8 @@ $ npm install
 $ npm start
 ```
 
-### 2.4 Link ảnh
-Để link đến một trang web chúng ta có thể dùng `[name](link)`
+### 2.4 Link
+Để link đến một trang web chúng ta có thể dùng `(link)`
 
 [node](http://nodejs.org) `Code: [node](http://nodejs.org).`
 
@@ -140,8 +145,9 @@ $ express /tmp/foo && cd /tmp/foo
 | Hàng 2 | 2 x 1 | 2 x 2 | 2 x 3 | 2 x 4 |
 | Hàng 3 | 3 x 1 | 3 x 2 | 3 x 3 | 3 x 4 |
 | Hàng 4 | 4 x 1 | 4 x 2 | 4 x 3 | 4 x 4 |
-  
-### 2.8 Dùng Raw để phân tích githup Readme của người khác.
+
+## Tham khảo
+### Dùng Raw để phân tích githup Readme của người khác.
 
 ### Tham khảo thêm tại
 https://markdownlivepreview.com/
