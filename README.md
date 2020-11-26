@@ -117,7 +117,7 @@ $ express /tmp/foo && cd /tmp/foo
 ### 2.8 Dùng Raw để phân tích githup Readme của người khác.
 
 ### Tham khảo thêm tại
-https://github.com/hocchudong/git-github-for-sysadmin/blob/master/README
+https://github.com/hocchudong/git-github-for-sysadmin/blob/master/README.md
 
 
 
