@@ -22,9 +22,9 @@
  
 - [Tham khảo](#tham-khảo) 
  
-   - (Dùng Raw để phân tích readme)[#dùng-raw-để-phân-tích-githup-readme-của-người-khác]
+   - [Dùng Raw để phân tích readme](#dùng-raw-để-phân-tích-githup-readme-của-người-khác)
    
-   - (Tham khảo thêm)[#tham-khảo-thêm-tại]
+   - [Tham khảo thêm](#tham-khảo-thêm-tại)
 ## 1. Readme là gì?
 
 Readme.md là một file hiển thị thông tin trên github, được viết dưới dạng ngôn ngữ thiết kế ( markup language), tương tự HTML, XML,... 
@@ -81,8 +81,8 @@ Sử dụng [tagname] để link đến tab bên dưới.
 ```
 #### Table of contents
 * [Trích xuất thông tin](#23-trích-xuất-thông-tin)
-* [Link ảnh](#24-link-ảnh)
-* [Setup](#setup)
+* [Link ảnh](#24-link)
+* [Tham khảo](#https://xnxx.com)
 ```
 
 
@@ -99,6 +99,10 @@ $ npm start
 
 ### 2.4 Link
 Để link đến một trang web chúng ta có thể dùng `(link)`
+
+Link sẽ được chia làm hai loại: link nội bộ `#24-link`- đây là link dùng trong file readme và link ngoại bộ `http://www.facebook.com` - link url đầy đủ đến một trang web
+
+[Link](#24-link) và https://www.facebook.com
 
 [node](http://nodejs.org) `Code: [node](http://nodejs.org).`
 
