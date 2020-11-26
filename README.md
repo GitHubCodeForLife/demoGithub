@@ -112,8 +112,12 @@ app.listen(3000)
 $ express /tmp/foo && cd /tmp/foo
 ```
 
+### 2.7 In nghiêng in đậm
 
-### 2.7 Dùng Raw để phân tích githup Readme của người khác.
+### 2.8 Dùng Raw để phân tích githup Readme của người khác.
+
+### Tham khảo thêm tại
+https://github.com/hocchudong/git-github-for-sysadmin/blob/master/README
 
 
 
