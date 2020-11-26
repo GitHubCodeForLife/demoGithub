@@ -1,4 +1,10 @@
 # Hướng dẫn viết file Readme.md githup
+- [1. Readme là gì](#1-readme-l%C3%A0-g%C3%AC)
+- [2. Các thành phần của readme](#2-c%C3%A1c-th%C3%A0nh-ph%E1%BA%A7n-c%E1%BB%A7a-readme)
+
+
+
+
 
 ## 1. Readme là gì?
 
