@@ -55,8 +55,8 @@ Sử dụng [tagname] để link đến tab bên dưới.
 
 ```
 #### Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
+* [Trích xuất thông tin](#23-trích-xuất-thông-tin)
+* [Link ảnh](#24-link-ảnh)
 * [Setup](#setup)
 ```
 
@@ -71,9 +71,49 @@ $ cd ../lorem
 $ npm install
 $ npm start
 ```
+
 ### 2.4 Link ảnh
-Để hiện thị một ảnh lên file readme thì điều đầu tiên là chúng ta cần upload ảnh lên ...
+Để link đến một trang web chúng ta có thể dùng `[name](link)`
+
+[node](http://nodejs.org) `Code: [node](http://nodejs.org).`
+
+Để hiện thị một ảnh lên file readme thì điều đầu tiên là chúng ta cần upload ảnh lên github...
 
 Sau đó dùng `![ name ] (link)` để link đến một ảnh
-![tekst alternatywny](ścieżka/do/pliku)
+
+![tekst alternatywny](ścieżka/do/pliku) `Code: ![tekst alternatywny](ścieżka/do/pliku)` 
+
+[![Express Logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](http://expressjs.com/) 
+
+`Code: [![Express Logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](http://expressjs.com/)`
+
+### 2.5 Xuống dòng, khoảng trống 1 thủ thuật nhỏ
+dòng 1
+dòng 2
+
+dòng 1
+
+dòng 2
+
+                Git point – exemplary Android application. A table of content makes navigation easier, the screenshots, mentioned functionalities, and information how to support application's development
+### 2.6 Viết code ở File readme
+
+```js
+const express = require('express')
+const app = express()
+
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+
+app.listen(3000)
+```
+```bash
+$ express /tmp/foo && cd /tmp/foo
+```
+
+
+### 2.7 Dùng Raw để phân tích githup Readme của người khác.
+
+
 
