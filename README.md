@@ -19,42 +19,49 @@ Vậy các lợi ích của file README là gì?
 ## 2. Các thành phần của readme?
 Trong phần này mình sẽ tập trung các thành phần của Readme và hướng dẫn các bạn sử dụng file readme để viết một file readme thật tuyệt vời.
 
-### Các ký tự sử dụng trong file readme gồm #, $, *, ``` 
+### Các ký tự sử dụng trong file readme gồm #, $, *, ``` , [], 
 
 ###2.1 Ký tự # - ký tự header
 Chúng ta sẽ có 6 header tương ứng vơi mỗi dấu #, ví dụ # sẽ là head1, ### sẽ là header3. Nó sẽ trông như này:
-# header H1 Code: # header H1
-## header H2 Code: ## header H2
-### header H3 Code: ### header H3
-#### header H4 Code: #### header H4
-##### header H5 Code: ##### header H5
-###### header H6 Code: ####### header H6
-Lưu ý là dấ # phải ở đầu dòng và có cách ra  một khoảng trắng nhỏ với dấu # nhá.
+# header H1 
+## header H2 
+### header H3 
+#### header H4 
+##### header H5 
+###### header H6 
+Lưu ý là dấu # phải ở đầu dòng và có cách ra  một khoảng trắng nhỏ với dấu # nhá.
 
-###2.2 Tạo bảng 
+### 2.2 Tạo bảng
+Để tạo bảng được các bạn sử dụng * để khai báo một dòng.
 
+Sử dụng [tagname] để link đến tab bên dưới.
 
-## Table of contents
+#### Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
-## General info
+#### General info
 This project is simple Lorem ipsum dolor generator.
 	
-## Technologies
+#### Technologies
 Project is created with:
 * Lorem version: 12.3
 * Ipsum version: 2.33
 * Ament library version: 999
 	
-## Setup
-To run this project, install it locally using npm:
 
+
+### 2.3 Trích xuất thông tin
+Để trích xuất thông tin, hay nói cách khác là hiển thị nó ở một block đặc biệt ta có thể sử dụng ký tự ``` 
+
+#### Setup
+To run this project, install it locally using npm:
 ```
 $ cd ../lorem
 $ npm install
 $ npm start
 ```
-
+### 2.4 Link ảnh
+![tekst alternatywny](ścieżka/do/pliku)
 
