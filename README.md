@@ -128,14 +128,29 @@ dòng 2
 ### 2.6 Viết code ở File readme
 
 ```js
-const express = require('express')
-const app = express()
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
 
-app.get('/', function (req, res) {
-  res.send('Hello World')
-})
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
 
-app.listen(3000)
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCcsPYXVPBwv9cjgMqfkLAxkeSxmP6FmWk",
+    authDomain: "my-first-project---web.firebaseapp.com",
+    projectId: "my-first-project---web",
+    storageBucket: "my-first-project---web.appspot.com",
+    messagingSenderId: "26224504521",
+    appId: "1:26224504521:web:e8a336c4820f307e276718",
+    measurementId: "G-Y91P3HZGRZ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 ```
 ```bash
 $ express /tmp/foo && cd /tmp/foo
